@@ -1,0 +1,31 @@
+{
+  "name": "webpack-manifest-v3-example",
+  "version": "1.0.0",
+  "description": "A Chrome extension packed using Webpack.",
+  "main": "service-worker.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbrockman/webpack-manifest-v3-example.git"
+  },
+  "keywords": [
+    "webpack",
+    "manifest",
+    "v3",
+    "chrome",
+    "extension"
+  ],
+  "author": "Theodore Brockman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tbrockman/webpack-manifest-v3-example/issues"
+  },
+  "homepage": "https://github.com/tbrockman/webpack-manifest-v3-example#readme",
+  "devDependencies": {
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.5.0"
+  }
+}

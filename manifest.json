@@ -1,0 +1,11 @@
+{
+    "name": "webpack-manifest-v3-example",
+    "author": "Theodore Brockman",
+    "version": "1.0.0",
+    "description": "A Chrome extension packed using Webpack.",
+    "permissions": [],
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "manifest_version": 3
+}
